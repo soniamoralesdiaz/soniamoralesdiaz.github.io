@@ -210,8 +210,9 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 60px;
+    font-size: 50px;
     font-style: italic;
+	color: #fed136;
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Berlin Sans FB Demi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -230,12 +231,12 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-#Education .nav-link-item {
+ .nav-link-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-#Education .portfolio-item .portfolio-link {
+#portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   max-width: 400px;
@@ -243,7 +244,7 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
-#Education .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -254,11 +255,11 @@ header.masthead .intro-text .intro-heading {
   background: rgba(254, 209, 54, 0.9);
 }
 
-#Education .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-#Education .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -269,16 +270,16 @@ header.masthead .intro-text .intro-heading {
   color: white;
 }
 
-#Education .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-#Education .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#Education .portfolio-item .portfolio-link .portfolio-hover .Education-hover-content h4 {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .Education-hover-content h4 {
   margin: 0;
 }
 
-#Education .portfolio-item .portfolio-caption {
+#portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
@@ -286,24 +287,24 @@ header.masthead .intro-text .intro-heading {
   background-color: #fff;
 }
 
-#Education .portfolio-item .portfolio-caption h4 {
+#portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-#Education .portfolio-item .portfolio-caption p {
+#portfolio .portfolio-item .portfolio-caption p {
   font-size: 16px;
   font-style: italic;
   margin: 0;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#Education * {
+ * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  #Education .portfolio-item {
+   .portfolio-item {
     margin: 0 0 30px;
   }
 }
@@ -358,6 +359,17 @@ header.masthead .intro-text .intro-heading {
   width: 75px;
   height: 75px;
   cursor: pointer;
+  background-color: #ffb90f
+  ;
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
   background-color: transparent;
 }
 
@@ -375,7 +387,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #fff;
+  background-color: #212529;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -387,7 +399,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #fff;
+  background-color: #212529;
 }
 
 .timeline {
@@ -605,7 +617,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #ffb90f;
 }
 
 section#contact .form-group {
